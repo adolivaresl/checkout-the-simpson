@@ -1,0 +1,45 @@
+.product{
+    max-height: 135px;
+}
+
+.addCart{
+    background-color: #000000;
+    color:#FFD700;
+     /* background-color: #FFD700; */
+}
+
+.addCart:hover{
+    background-color: #FFD700;
+    color: #000000;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container-cards{
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    background-color: #ffffff;
+    padding: 1em;
+    height: 375px;
+    max-width: 14rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.card-img {
+    max-width: 150px;         
+    height: 100px;
+    margin: 5px auto;
+}
+.card-body{
+    overflow-y: scroll;
+}
