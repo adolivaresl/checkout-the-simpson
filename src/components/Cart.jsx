@@ -17,7 +17,6 @@ const Cart = ({items, onCheckout, onRemoveItem, show, setShowCart, total}) => {
     return (
         <div className={`carrito-sidebar ${show ? 'carrito-visible' : 'carrito-hidden'}`}>
             <button variant="secondary" className="carrito-close-btn" onClick={() => setShowCart(false)}>✖</button>
-
             <div className="carrito-content">
                 <h2 className="carrito-title">Tu carrito</h2>
                 <ul className="carrito-list">
