@@ -1,0 +1,112 @@
+/*ESTILOS GENERALES*/
+@font-face {
+    font-family: 'Simpsonfont';
+    src: url('https://github.com/adolivaresl/prueba_font/blob/main/Simpsonfont.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.simpsons-header{  
+    padding-bottom: 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../assets/background.jpg');
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Simpsonfont', sans-serif;
+    color: #FFD700;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 3em;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 1px black;
+}
+
+h5 {
+    font-family: 'Simpsonfont', sans-serif;
+    color: #FFD700;
+}
+
+footer{
+    background-color: #000000;
+    color: #FFD700;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.dashed-border{
+    border-left: 1px dashed #FFD700;
+    padding-left: 50px;;
+ }
+
+footer ul{
+    list-style-type: none
+}
+
+footer ul li{
+    margin: 1em 0;
+}
+footer li a{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #FFD700;
+    
+}
+
+footer img{
+    max-width: 100px;
+    height: auto;
+    text-align: center;
+}
+
+footer h4{
+    font-family: 'Simpsonfont', sans-serif;
+    color: #FFD700;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.created{
+    text-align: center;
+    font-family: 'Simpsonfont', sans-serif;
+    margin-top: 1.2em;
+}
+.welcome{
+    text-align: center;;
+}
+
+.floating-carrito {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  z-index: 1000;
+  animation: pulse 1.2s infinite;
+}
+
+.badge {
+  position: absolute;
+  right: 5px;
+  background-color: #ff4d4d;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
